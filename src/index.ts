@@ -1,6 +1,6 @@
-import setPublicPermissions from "./bootstrap-permissions";
+const setPublicPermissions = require("./bootstrap-permissions");
 
-export default {
+module.exports = {
   /**
    * An asynchronous register function that runs before
    * your application is initialized.
