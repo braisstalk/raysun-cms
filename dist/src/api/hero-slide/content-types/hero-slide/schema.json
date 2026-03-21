@@ -1,0 +1,86 @@
+{
+    "kind": "collectionType",
+    "collectionName": "hero_slides",
+    "info": {
+        "singularName": "hero-slide",
+        "pluralName": "hero-slides",
+        "displayName": "Hero Slide",
+        "description": "Hero carousel slides for all pages"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "page": {
+            "type": "enumeration",
+            "enum": [
+                "home",
+                "about",
+                "manufacturing",
+                "rd-innovation",
+                "quality-compliance",
+                "products",
+                "news",
+                "careers",
+                "contact",
+                "resources",
+                "verify",
+                "order-now",
+                "ai-assistant",
+                "what-science-can-do"
+            ],
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "backgroundType": {
+            "type": "enumeration",
+            "enum": ["image", "video", "gradient"],
+            "default": "gradient",
+            "required": true
+        },
+        "backgroundImage": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": ["images"]
+        },
+        "backgroundVideo": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": ["videos"]
+        },
+        "gradientClass": {
+            "type": "string",
+            "default": "from-slate-900 via-slate-800 to-blue-900"
+        },
+        "ctaPrimaryLabel": {
+            "type": "string"
+        },
+        "ctaPrimaryLink": {
+            "type": "string"
+        },
+        "ctaSecondaryLabel": {
+            "type": "string"
+        },
+        "ctaSecondaryLink": {
+            "type": "string"
+        },
+        "sortOrder": {
+            "type": "integer",
+            "default": 0
+        },
+        "isActive": {
+            "type": "boolean",
+            "default": true
+        },
+        "locale": {
+            "type": "string",
+            "default": "en"
+        }
+    }
+}

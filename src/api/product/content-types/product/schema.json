@@ -1,0 +1,98 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": "Pharmaceutical products"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "genericName": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "antibiotics",
+        "cardiovascular",
+        "pain",
+        "dermatology",
+        "vitamins",
+        "gastrointestinal",
+        "respiratory",
+        "traditional",
+        "other"
+      ],
+      "required": true
+    },
+    "dosageForm": {
+      "type": "string"
+    },
+    "strength": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "indication": {
+      "type": "text"
+    },
+    "composition": {
+      "type": "text"
+    },
+    "packaging": {
+      "type": "string"
+    },
+    "shelfLife": {
+      "type": "string"
+    },
+    "storageConditions": {
+      "type": "string"
+    },
+    "productType": {
+      "type": "enumeration",
+      "enum": ["brand", "generic"],
+      "default": "generic"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images"]
+    },
+    "dataSheet": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files"]
+    },
+    "coa": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files"]
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "locale": {
+      "type": "string",
+      "default": "en"
+    }
+  }
+}
