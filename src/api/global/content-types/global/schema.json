@@ -45,6 +45,12 @@
     "footerQuickLinksTitle": { "type": "string" },
     "footerProductsTitle": { "type": "string" },
     "footerContactTitle": { "type": "string" },
-    "footerCopyright": { "type": "string" }
+    "footerCopyright": { "type": "string" },
+    "homeCapabilities": { "type": "json" },
+    "homeProductCategories": { "type": "json" },
+    "homeQuality": { "type": "json" },
+    "homeGlobalMarkets": { "type": "json" },
+    "homeNews": { "type": "json" },
+    "homeResources": { "type": "json" }
   }
 }
