@@ -25,8 +25,18 @@
     },
     "category": {
       "type": "enumeration",
-      "enum": ["brochure", "certificate", "catalog", "media", "report", "other"],
+      "enum": ["corporate", "facility", "products", "quality", "media", "other"],
       "required": true
+    },
+    "resourceType": {
+      "type": "enumeration",
+      "enum": ["document", "video", "link"],
+      "default": "document"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["public", "request", "restricted", "pending"],
+      "default": "public"
     },
     "file": {
       "type": "media",
@@ -36,13 +46,12 @@
     "fileSize": {
       "type": "string"
     },
+    "updatedDate": {
+      "type": "string"
+    },
     "sortOrder": {
       "type": "integer",
       "default": 0
-    },
-    "locale": {
-      "type": "string",
-      "default": "en"
     }
   }
 }
