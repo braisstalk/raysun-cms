@@ -40,6 +40,9 @@
     "locale": {
       "type": "string",
       "default": "en"
+    },
+    "content": {
+      "type": "json"
     }
   }
 }
