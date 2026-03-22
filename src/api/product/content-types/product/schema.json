@@ -69,7 +69,7 @@
       "default": "generic"
     },
     "tags": {
-      "type": "json"
+      "type": "text"
     },
     "images": {
       "type": "media",
