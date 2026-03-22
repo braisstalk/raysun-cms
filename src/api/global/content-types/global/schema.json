@@ -11,66 +11,33 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "siteName": {
-      "type": "string",
-      "required": true,
-      "default": "Raysun Biopharma"
-    },
-    "siteNameCn": {
-      "type": "string",
-      "default": "雷神生物制药"
-    },
-    "siteDescription": {
-      "type": "text"
-    },
-    "contactEmail": {
-      "type": "email",
-      "default": "info@raysunpharma.com"
-    },
-    "contactPhone": {
-      "type": "string"
-    },
-    "address": {
-      "type": "text"
-    },
-    "whatsappQrCode": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": ["images"]
-    },
-    "wecomQrCode": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": ["images"]
-    },
-    "socialLinkedin": {
-      "type": "string"
-    },
-    "socialFacebook": {
-      "type": "string"
-    },
-    "socialYoutube": {
-      "type": "string"
-    },
-    "socialX": {
-      "type": "string"
-    },
-    "socialInstagram": {
-      "type": "string"
-    },
-    "complianceDisclaimer": {
-      "type": "richtext",
-      "required": true
-    },
-    "logo": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": ["images"]
-    },
-    "logoDark": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": ["images"]
-    }
+    "siteName": { "type": "string", "required": true, "default": "Raysun Biopharma" },
+    "siteNameCn": { "type": "string", "default": "雷神生物制药" },
+    "siteDescription": { "type": "text" },
+    "contactEmail": { "type": "email", "default": "info@raysunpharma.com" },
+    "contactPhone": { "type": "string" },
+    "address": { "type": "text" },
+    "whatsappQrCode": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "wecomQrCode": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "socialLinkedin": { "type": "string" },
+    "socialFacebook": { "type": "string" },
+    "socialYoutube": { "type": "string" },
+    "socialX": { "type": "string" },
+    "socialInstagram": { "type": "string" },
+    "complianceDisclaimer": { "type": "richtext", "required": true },
+    "logo": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "logoDark": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "homeHeroTitle": { "type": "string" },
+    "homeHeroSubtitle": { "type": "text" },
+    "homeHeroPrimaryCtaLabel": { "type": "string" },
+    "homeHeroPrimaryCtaLink": { "type": "string" },
+    "homeHeroSecondaryCtaLabel": { "type": "string" },
+    "homeHeroSecondaryCtaLink": { "type": "string" },
+    "homeStats": { "type": "json" },
+    "homeAboutTitle": { "type": "string" },
+    "homeAboutDesc1": { "type": "text" },
+    "homeAboutDesc2": { "type": "text" },
+    "homeAboutCtaLabel": { "type": "string" },
+    "homeAboutCtaLink": { "type": "string" }
   }
 }
