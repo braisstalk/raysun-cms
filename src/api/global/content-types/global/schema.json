@@ -38,6 +38,13 @@
     "homeAboutDesc1": { "type": "text" },
     "homeAboutDesc2": { "type": "text" },
     "homeAboutCtaLabel": { "type": "string" },
-    "homeAboutCtaLink": { "type": "string" }
+    "homeAboutCtaLink": { "type": "string" },
+    "footerQuickLinks": { "type": "json" },
+    "footerProductLinks": { "type": "json" },
+    "footerBottomLinks": { "type": "json" },
+    "footerQuickLinksTitle": { "type": "string" },
+    "footerProductsTitle": { "type": "string" },
+    "footerContactTitle": { "type": "string" },
+    "footerCopyright": { "type": "string" }
   }
 }
