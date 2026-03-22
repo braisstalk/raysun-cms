@@ -39,13 +39,14 @@
       "required": true
     },
     "dosageForm": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "strength": {
       "type": "string"
     },
     "description": {
-      "type": "richtext"
+      "type": "text"
     },
     "indication": {
       "type": "text"
@@ -66,6 +67,9 @@
       "type": "enumeration",
       "enum": ["brand", "generic"],
       "default": "generic"
+    },
+    "tags": {
+      "type": "json"
     },
     "images": {
       "type": "media",
@@ -89,10 +93,6 @@
     "sortOrder": {
       "type": "integer",
       "default": 0
-    },
-    "locale": {
-      "type": "string",
-      "default": "en"
     }
   }
 }
