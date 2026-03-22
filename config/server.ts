@@ -5,12 +5,4 @@ export default ({ env }) => ({
     keys: env.array('APP_KEYS', ['defaultKey1', 'defaultKey2']),
   },
   url: env('PUBLIC_URL', ''),
-  vite: {
-    server: {
-      allowedHosts: [
-        'raysun-cms-production.up.railway.app',
-        'localhost',
-      ],
-    },
-  },
 });
