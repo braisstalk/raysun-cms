@@ -31,26 +31,32 @@
     },
     "employmentType": {
       "type": "enumeration",
-      "enum": ["full-time", "part-time", "contract"],
+      "enum": ["full-time", "part-time", "contract", "internship"],
       "default": "full-time"
     },
-    "description": {
-      "type": "richtext",
+    "summary": {
+      "type": "text",
       "required": true
     },
-    "requirements": {
-      "type": "richtext"
-    },
     "responsibilities": {
-      "type": "richtext"
+      "type": "json"
+    },
+    "requirements": {
+      "type": "json"
+    },
+    "preferred": {
+      "type": "json"
+    },
+    "postedDate": {
+      "type": "date"
     },
     "isActive": {
       "type": "boolean",
       "default": true
     },
-    "locale": {
-      "type": "string",
-      "default": "en"
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
