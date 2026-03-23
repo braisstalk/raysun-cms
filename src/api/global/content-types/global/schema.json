@@ -51,6 +51,8 @@
     "homeQuality": { "type": "json" },
     "homeGlobalMarkets": { "type": "json" },
     "homeNews": { "type": "json" },
-    "homeResources": { "type": "json" }
+    "homeResources": { "type": "json" },
+    "navMenuItems": { "type": "json" },
+    "navCtaButtons": { "type": "json" }
   }
 }
