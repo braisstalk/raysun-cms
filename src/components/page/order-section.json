@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_order_sections",
+  "info": {
+    "displayName": "Order Section",
+    "description": "Order page configuration"
+  },
+  "options": {},
+  "attributes": {
+    "trackingPlaceholder": {
+      "type": "string"
+    },
+    "helpText": {
+      "type": "text"
+    }
+  }
+}

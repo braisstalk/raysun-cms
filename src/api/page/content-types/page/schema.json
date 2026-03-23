@@ -43,6 +43,14 @@
     },
     "content": {
       "type": "json"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page.contact-section",
+        "page.verify-section",
+        "page.order-section"
+      ]
     }
   }
 }

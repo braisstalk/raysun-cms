@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_verify_sections",
+  "info": {
+    "displayName": "Verify Section",
+    "description": "Verify page configuration"
+  },
+  "options": {},
+  "attributes": {
+    "helpTitle": {
+      "type": "string"
+    },
+    "helpDescription": {
+      "type": "text"
+    },
+    "reportTitle": {
+      "type": "string"
+    },
+    "reportDescription": {
+      "type": "text"
+    }
+  }
+}

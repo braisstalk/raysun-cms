@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_contact_sections",
+  "info": {
+    "displayName": "Contact Section",
+    "description": "Contact page configuration"
+  },
+  "options": {},
+  "attributes": {
+    "officeEmail": {
+      "type": "string"
+    },
+    "officePhone": {
+      "type": "string"
+    },
+    "officeAddress": {
+      "type": "text"
+    },
+    "officeHours": {
+      "type": "string"
+    }
+  }
+}
