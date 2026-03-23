@@ -43,66 +43,6 @@
     },
     "content": {
       "type": "json"
-    },
-    "contactInquiryTypes": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.inquiry-type"
-    },
-    "contactCountries": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.country-item"
-    },
-    "contactOfficeEmail": {
-      "type": "string"
-    },
-    "contactOfficePhone": {
-      "type": "string"
-    },
-    "contactOfficeAddress": {
-      "type": "text"
-    },
-    "contactOfficeHours": {
-      "type": "string"
-    },
-    "verifyTypes": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.verify-type"
-    },
-    "verifyHelpTitle": {
-      "type": "string"
-    },
-    "verifyHelpDescription": {
-      "type": "text"
-    },
-    "verifyReportTitle": {
-      "type": "string"
-    },
-    "verifyReportDescription": {
-      "type": "text"
-    },
-    "orderTypes": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.order-type"
-    },
-    "orderPaymentMethods": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.payment-method"
-    },
-    "orderTrackingPlaceholder": {
-      "type": "string"
-    },
-    "orderHelpText": {
-      "type": "text"
-    },
-    "orderCountries": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.country-item"
     }
   }
 }
