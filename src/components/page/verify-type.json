@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_verify_types",
+  "info": {
+    "displayName": "Verify Type",
+    "description": "Verification page type option"
+  },
+  "options": {},
+  "attributes": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

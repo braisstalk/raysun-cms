@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_inquiry_types",
+  "info": {
+    "displayName": "Inquiry Type",
+    "description": "Contact page inquiry type option"
+  },
+  "options": {},
+  "attributes": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
